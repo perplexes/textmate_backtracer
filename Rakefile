@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "textmate_backtracer"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = "Rails backtrace line links to Textmate"
+    gem.description = %Q{Modifies the lines in your Rails backtrace output (when server-side errors occur) to make them clickable, and take you straight to that line in Textmate. Based on http://inquirylabs.com/blog2005/?p=36 and now with Rails 3.0 support! In your face!}
     gem.email = "colin.t.curtin@gmail.com"
     gem.homepage = "http://github.com/perplexes/textmate_backtracer"
     gem.authors = ["Colin Curtin"]
